@@ -6,10 +6,6 @@
 
 ---
 
-Perfect 👍 I’ll keep it **clean and simple** but add in all the new features you mentioned. Here’s the updated **categorized feature list** for your VR multiplayer welding classroom:
-
----
-
 # ✨ Features Overview
 
  👩‍🏫 **Room & User Management**
