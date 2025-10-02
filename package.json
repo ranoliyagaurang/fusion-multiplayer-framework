@@ -11,6 +11,6 @@
     "url": "https://ptt.edu"
   },
   "dependencies": {
-    "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git#v1.13.2"
+    
   }
 }
