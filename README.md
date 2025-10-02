@@ -86,7 +86,7 @@ Before installing this package, please make sure to import the following Unity A
 
    ```json
    "dependencies": {
-     "com.yourname.fusion-multiplayer-framework": "https://github.com/yourname/FusionMultiplayerFramework.git#1.0.0"
+     "com.ranoliyagaurang.fusion-multiplayer-framework": "https://github.com/ranoliyagaurang/fusion-multiplayer-framework.git#1.0.0"
    }
    ```
 
