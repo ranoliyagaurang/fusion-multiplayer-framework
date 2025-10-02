@@ -2,7 +2,8 @@
   "name": "com.ranoliyagaurang.fusion-multiplayer-framework",
   "displayName": "Fusion Multiplayer Framework",
   "version": "1.0.0",
-  "unity": "6000.2.5f1",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
   "description": "A Teacher-Student multiplayer framework built on Fusion networking.",
   "author": {
     "name": "Gaurang Ranoliya",
