@@ -6,27 +6,60 @@
 
 ---
 
-## ✨ Features
-
-* **Room Management**
-
-  * Teacher can **create** and **join rooms**.
-  * Students can **join rooms** created by teachers.
-
-* **Teacher Admin Controls**
-
-  * Disable student **movement**, **microphone**, and **grabbing permissions**.
-  * Hide a specific student’s avatar locally.
-  * View and manage the full **student list**.
-
-* **XR Features**
-
-  * Teacher can enable **passthrough** mode for all students simultaneously.
-  * Both Teacher and Students can **select avatars** before creating or joining rooms.
+Perfect 👍 I’ll keep it **clean and simple** but add in all the new features you mentioned. Here’s the updated **categorized feature list** for your VR multiplayer welding classroom:
 
 ---
 
-## 📦 Required Assets (Dependencies)
+# ✨ Features Overview
+
+ 👩‍🏫 **Room & User Management**
+
+* Teacher can **create** and **join rooms** (room creation restricted with a **password authentication** so only teachers can create rooms).
+* Students can **join rooms** created by teachers.
+* Supports **multiple teachers** in the same room → all act as **admins** with full control.
+* **Avatar selection**: Choose from **10 different 3D avatars** before joining a room.
+* **Name selection**: Players set a display name that appears above their avatar in-game.
+* Teacher can **view and manage** the complete student list.
+* Teacher can **reposition students** anywhere in the VR space for demonstrations.
+
+ 🛠️ **Teacher Admin Controls**
+
+* Disable student **movement**, **microphone**, and **grabbing permissions**.
+* Hide a specific student’s avatar locally.
+* **Mute/unmute students** or allow students to mute themselves.
+* **Network monitoring**: Teacher(s) can see **ping/latency** for all players including themselves.
+* Admin privileges extend to **all teachers** in the room (shared control).
+
+ 🎤 **Voice & Communication**
+
+* **Realtime synchronized voice chat**, works like a natural group call.
+* Students can **mute themselves** independently.
+
+ 🖥️ **XR Teaching Tools**
+
+* Teacher can enable **passthrough mode** for all students simultaneously.
+* **Raycast pointers**:
+
+  * Students see their own hand raycasts (for interaction only, not visible to others).
+  * Teacher’s **raycasts are synced** and visible to all students (laser-pointer style).
+* **PPT and video panels**:
+
+  * Synchronized across all players.
+  * Only teacher(s) can **play/pause videos** and **change slides**.
+* **Smartboard system**:
+
+  * Teacher can grab a marker in different colors.
+  * Draw on the board in realtime, visible to all students.
+
+ 🔧 **Learning Environment**
+
+* Teachers can move students into position for **hands-on demonstrations**.
+* Collaborative tools (slides, videos, whiteboard, laser pointers) make lessons feel **like a real classroom**.
+* Supports **multiple teacher-led sessions** in the same room.
+
+---
+
+📦 Required Assets (Dependencies)
 
 Before installing this package, please make sure to import the following Unity Asset Store packages into your project:
 
