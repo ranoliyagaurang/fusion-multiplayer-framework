@@ -74,6 +74,13 @@ Before installing this package, please make sure to import the following Unity A
    * Real-time voice communication system.
    * Required for enabling teacher microphone control over students.
 
+4. [**ReadyPlayerMe**](https://github.com/readyplayerme/rpm-unity-sdk-core)
+
+   * Cross-platform avatar solution for Unity.
+   * Allows teachers and students to create and customize 3D avatars before joining a room.
+   * Provides ready-to-use rigged avatars with animations, materials, and textures.
+   * Integrates seamlessly with multiplayer so each player can be represented by their chosen avatar.
+
 ⚠️ These packages are **mandatory**. Please install them **before adding this framework package** to avoid missing dependency errors.
 
 ---
