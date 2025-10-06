@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4659346148898753322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4659346148898753316}
+  - component: {fileID: 4659346148898753323}
+  m_Layer: 0
+  m_Name: RPMAvatarLibrary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659346148898753316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4659346148898753322}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4659346148898753323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4659346148898753322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab7c8fb5e460834897fac2c588b798e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cachedAvatars:
+  - avatarGameObject: {fileID: 4887954416840042490, guid: fa88811389bb75b48a3e7ad76325fb05, type: 3}
+    avatarURL: rpmcached://women1
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 8158614214942739787, guid: 4e02437f83a4288499514f866c65e68d, type: 3}
+    avatarURL: rpmcached://women2
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 6953504945683071161, guid: cc31ea9c8b9ecf743b744614c2960d8c, type: 3}
+    avatarURL: rpmcached://women3
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 2227551559046416609, guid: c23486e2997f04d45b8699b3ea54b756, type: 3}
+    avatarURL: rpmcached://women4
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 495801088401030034, guid: de0f3857ae3353a44a012219a5c5fc5d, type: 3}
+    avatarURL: rpmcached://women5
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 2600148929289139259, guid: 54c01e041b6765444bfb4a6704ec7141, type: 3}
+    avatarURL: rpmcached://men1
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 4455886559405482781, guid: 00d27cc59555a27468ee0ded35baa24e, type: 3}
+    avatarURL: rpmcached://men2
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 7779293797451753693, guid: 169d6ccebbae88147aeed524c46e1226, type: 3}
+    avatarURL: rpmcached://men3
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 8393027121660972166, guid: 4f8cfffd7d214e9459288a5b7d82ebb6, type: 3}
+    avatarURL: rpmcached://men4
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 1733556530547031853, guid: 0eb9c47e5beda934a865a3efca0447f4, type: 3}
+    avatarURL: rpmcached://men5
+    isTeacher: 1
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 6226990761986960895, guid: 68c4a91ae3d402a488cf5466586eb91c, type: 3}
+    avatarURL: rpmcached://student1
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 9191099564341322665, guid: 175e9a72ee0097a4c97f133a9ee517c5, type: 3}
+    avatarURL: rpmcached://student2
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 8463984386112529811, guid: e2f0787cd0569294eabef05f8775046a, type: 3}
+    avatarURL: rpmcached://student3
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 2258986404043830000, guid: 957e7d8d8f62fd345b45178d12d2705a, type: 3}
+    avatarURL: rpmcached://student4
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 1194156120639952594, guid: 861515f6cd36ed4438d3344748c42ea5, type: 3}
+    avatarURL: rpmcached://student5
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 6984211466449710201, guid: 25ce7e7ff5521b14392fd276f34dd260, type: 3}
+    avatarURL: rpmcached://student6
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 875447035343183327, guid: 806d3b9bc23f6ac4e82fb38d90b81609, type: 3}
+    avatarURL: rpmcached://student7
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 5859489375131810423, guid: 4d8729451f79f5a48b2d86f7464c5f40, type: 3}
+    avatarURL: rpmcached://student8
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 5951988591369047757, guid: 1b6ba31ccbb26734391e6ad4cf46576f, type: 3}
+    avatarURL: rpmcached://student9
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
+  - avatarGameObject: {fileID: 4920247713703675632, guid: 248779832274a1544b27af97961dacdc, type: 3}
+    avatarURL: rpmcached://student10
+    isTeacher: 0
+    metadata:
+      BodyType: 0
+      OutfitGender: 0
+      SkinTone: 
